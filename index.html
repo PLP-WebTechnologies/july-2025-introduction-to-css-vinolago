@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoviesDaily Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1>Unlimited movies, shows and more</h1>
+        <h2>Watch what you want for free!</h2>
+    </section>
+
+    <section>
+        <h2>Search Movies</h2>
+        <table>
+            <tr>
+                <th><a href="#">All Movies</a></th>
+                <th><a href="#">Genre</a></th>
+                <th><a href="#">Country</a></th>
+                <th><a href="#">Decades</a></th>
+            </tr>
+
+            <tr>
+                <td><a href="#">Deadly Weapons (2015)</a></td>
+                <td>Animation</td>
+                <td>India</td>
+                <td>2010s</td>
+            </tr>
+
+            <tr>
+                <td><a href="#">Kasongo (2024)</a></td>
+                <td>Comedy</td>
+                <td>Kenya</td>
+                <td>2020s</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <section>
+        <h2>Trending shows</h2>
+        <video controls width="30%">
+            <source src="./videos/wed.mp4" type="video/mp4">
+            <source src="./videos/wed.webm" type="video/webm">
+            Your browser does not support videos
+        </video>
+        <p>Wednesday</p>
+
+        <video controls width="30%">
+            <source src="./videos/oxford.mp4" type="video/mp4">
+            <source src="./videos/oxford.webm" type="video/webm">
+            Your browser does not support videos
+        </video>
+        <p>My Oxford Year</p>
+
+        <video controls width="30%">
+            <source src="./videos/squid.mp4" type="video/mp4">
+            <source src="./videos/squid.webm" type="video/webm">
+            Your browser does not support videos
+        </video>
+        <p>Squid Game</p>
+    
+    </section>
+
+    <section>
+        <h2 id="contact-header">Have Questions? Contact Us</h2>
+        <form autocomplete="on" method="POST">
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="firstname" required> <br />
+
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="lastname" required> <br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="myemail@aol.com" readonly required> <br />
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="5" placeholder="Type your message here..." required></textarea> <br />
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>FAQs</h2>
+        <dl class="faqs-list">
+            <dt>What is MoviesDaily?</dt>
+            <dd>MoviesDaily is a free streaming platform for your favorite movies.</dd>
+            
+            <dt>Is MoviesDaily free?</dt>
+            <dd>Yes, MoviesDaily is free and will always be!</dd>
+            
+            <dt>How can I watch?</dt>
+            <dd>Simply select the movie you like and start watching from your browser.</dd>
+
+            <dt>Can I download your movies?</dt>
+            <dd>Yes, feel free to download any movie to watch later.</dd>
+        </dl>
+    </section>
+</body>
+
+</html>
